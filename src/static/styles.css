@@ -162,6 +162,12 @@ button:hover {
   border: 1px solid #ef9a9a;
 }
 
+.warning {
+  background-color: #fff3e0;
+  color: #ef6c00;
+  border: 1px solid #ffcc02;
+}
+
 .info {
   background-color: #d1ecf1;
   color: #0c5460;

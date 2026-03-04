@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (response.ok) {
           messageDiv.textContent = `Unregistered ${email} from ${activity}`;
-          messageDiv.className = "success";
+          messageDiv.className = "warning";
           messageDiv.classList.remove("hidden");
           fetchActivities();
         } else {
